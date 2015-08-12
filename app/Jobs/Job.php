@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace Bountify\Jobs;
 
 use Illuminate\Bus\Queueable;
 

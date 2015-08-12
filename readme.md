@@ -1,7 +1,7 @@
 ## Bountify
 
 [![Build Status](https://travis-ci.org/Bountify/bountify.svg)](https://travis-ci.org/Bountify/bountify)
-[![Latest Stable Version](https://poser.pugx.org/bountify/bountify/v/stable)](https://packagist.org/packages/bountify/bountify) [![Total Downloads](https://poser.pugx.org/bountify/bountify/downloads)](https://packagist.org/packages/bountify/bountify) [![License](https://poser.pugx.org/bountify/bountify/license)](https://packagist.org/packages/bountify/bountify)
+[![Latest Stable Version](https://poser.pugx.org/bountify/bountify/v/stable)](https://packagist.org/packages/bountify/bountify) [![Total Downloads](https://poser.pugx.org/bountify/bountify/downloads)](https://packagist.org/packages/bountify/bountify) [![License](https://poser.pugx.org/bountify/bountify/license)](https://packagist.org/packages/bountify/bountify) [![Coverage Status](https://coveralls.io/repos/Bountify/bountify/badge.svg?branch=master&service=github)](https://coveralls.io/github/Bountify/bountify?branch=master) [![Dependency Status](https://www.versioneye.com/user/projects/55cab42fdfed0a001e00012e/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55cab42fdfed0a001e00012e)
 
 Bountify aims to help people realize that each of us lives in [a world of abundance](http://www.resurgence.org/magazine/article4233-a-beautiful-world-of-abundance.html). The foundation of our philosophy is built upon two complementary and fundamental principles drawn from the [10 Principles of Burning Man](http://burningman.org/culture/philosophical-center/10-principles/):
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Bountify\Events;
 
 abstract class Event
 {
