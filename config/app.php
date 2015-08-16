@@ -140,6 +140,7 @@ return [
 		Cartalyst\Sentinel\Addons\Social\Laravel\SocialServiceProvider::class,
 		Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
 		Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
+		Intervention\Image\ImageServiceProvider::class,
 
 		/*
 		 * Application Service Providers...
@@ -200,6 +201,7 @@ return [
 		'Sentinel' => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
 		'Social' => Cartalyst\Sentinel\Addons\Social\Laravel\Facades\Social::class,
 		'Gravatar' => Thomaswelton\LaravelGravatar\Facades\Gravatar::class,
+		'Image' => Intervention\Image\Facades\Image::class,
 	],
 
 ];
