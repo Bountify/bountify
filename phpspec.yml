@@ -3,3 +3,4 @@ suites:
         namespace: Bountify
         psr4_prefix: Bountify
         src_path: app
+        spec_path: specs
