@@ -138,6 +138,7 @@ return [
 		Illuminate\View\ViewServiceProvider::class,
 		Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
 		Cartalyst\Sentinel\Addons\Social\Laravel\SocialServiceProvider::class,
+		Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
 
 		/*
 		 * Application Service Providers...
@@ -197,6 +198,7 @@ return [
 		'Reminder' => Cartalyst\Sentinel\Laravel\Facades\Reminder::class,
 		'Sentinel' => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
 		'Social' => Cartalyst\Sentinel\Addons\Social\Laravel\Facades\Social::class,
+		'Gravatar' => Thomaswelton\LaravelGravatar\Facades\Gravatar::class,
 	],
 
 ];

@@ -15,7 +15,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "cartalyst/sentinel": "2.0.*",
-        "cartalyst/sentinel-social": "2.0.*@dev"
+        "cartalyst/sentinel-social": "2.0.*@dev",
+        "thomaswelton/laravel-gravatar": "~1.0"
     },
     "repositories": [
         {
