@@ -5,9 +5,7 @@ php:
 - hhvm
 before_install:
 - echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc
+- composer config -g github-oauth.github.com $CI_USER_TOKEN
 before_script:
 - composer self-update
 - composer install --prefer-source --no-interaction --dev
-env:
-  global:
-    secure: JAYXmwilKi9qH1DT5kOecmxym6q9IKDqMuHE31PHQoPU/Noy9jlTo/xTaYtpUekIVAyw4wtpc+jU+zmyFA/1zdikwFAIEnb4oQoAx7JGdpaSerjXNDzP0+T+z7pTc5le/Gmjm9uEsMu3ln0EqRAmhpkhD9hLlsWF9ApZHcCk1isCBDTJ7ScC0eq5ETRhszy2WwrsH1fv58scunYZ2dpiyZuF78CekcbwUKDEJRzj5JKkK++7Rxbukc6isARQhgkOWKEFbBFpNj/hx/UcMwakhGHAMZ8fuqztnezu0eHYTlAQDwQny7UV3H/vqf3+DM9h3kggQE7n0AFW4opXhQzSw1dCvI4y7KUuMBx79cAsJ7e8HYTtw42EaAzTgckB5UOX0RrY9UW+CsWlvmgZC+wFVLPYwu5JQ4azv/LZU/3lW+EQiGNrkiQt51lwRqJCaufW8jqhHoO7zYFWM7s70C7UhE8YRQH9xEb/iPd3y5m/Sr1k+xZrTMB59ucswYPiSQUExczsMT4ujh6/JjnYFRZ/EN6uVi5mtvCpsaxdgiPHcrvC2GbfkmeVK0drrk4rAmf1a4mfKNdYThlUaiMFJ49uXQT8PSQwewJKQ3K3HJc5JErFQYZMC+RbeMAABDH1NT5GJiTK7tqR7dDD+S6w7+/mC0K4p2x2vdLqBWUiQXDgyvU=
