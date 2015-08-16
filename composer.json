@@ -16,7 +16,8 @@
         "laravel/framework": "5.1.*",
         "cartalyst/sentinel": "2.0.*",
         "cartalyst/sentinel-social": "2.0.*@dev",
-        "thomaswelton/laravel-gravatar": "~1.0"
+        "thomaswelton/laravel-gravatar": "~1.0",
+        "cviebrock/eloquent-sluggable": "^3.0"
     },
     "repositories": [
         {

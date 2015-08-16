@@ -139,6 +139,7 @@ return [
 		Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
 		Cartalyst\Sentinel\Addons\Social\Laravel\SocialServiceProvider::class,
 		Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
+		Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
 
 		/*
 		 * Application Service Providers...
