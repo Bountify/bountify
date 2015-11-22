@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('login', function() {
+	return '<form action="/login" method="post">'.
+		   '<label for="email">Email: <input id="email" name="email" type="email"></label> '.
+		   '<label for="password">Password: <input id="password" name="password" type="password"></label> '.
+		   '<button type="submit">Login</button> '.
+		   '<a href="/reset">Reset password</a> '.
+		   '<a href="/register">Register</a>'.
+		   '</form>';
+});
