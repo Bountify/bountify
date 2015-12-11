@@ -10,3 +10,4 @@ abstract class Controller extends BaseController
 {
     use DispatchesJobs, ValidatesRequests;
 }
+

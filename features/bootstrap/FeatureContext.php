@@ -1,5 +1,6 @@
 <?php
 
+use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\MinkExtension\Context\MinkContext;
@@ -17,4 +18,20 @@ class FeatureContext extends MinkContext implements Context, SnippetAcceptingCon
 	 */
 	public function __construct() {
 	}
+
+    /**
+     * @Then I should see an :element with :attribute :value
+     */
+    public function iShouldSeeAnWith($element, $attribute, $value)
+    {
+         $this->assertSession()->elementExists('css', "{$element}[{$attribute}='$value']");
+    }
+
+    /**
+     * @Then I should see an :element  with :attribute :value
+     */
+     public function iShouldSeeAnWith2($element, $attribute, $value)
+    {
+         $this->assertSession()->elementExists('css', "{$element}[{$attribute}='$value']");
+    }
 }
