@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('gifts/search', 'GiftsController@search');
+Route::resource('gifts', 'GiftsController');
