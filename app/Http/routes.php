@@ -24,3 +24,9 @@ Route::get('login', function() {
 		   '<a href="/register">Register</a>'.
 		   '</form>';
 });
+
+Route::get('profile/{username}', 'ProfileController@show');
+
+
+Route::get('createGiftNeed', 'GiftNeedController@index')
+
